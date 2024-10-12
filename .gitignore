@@ -26,29 +26,31 @@ nbproject/private/
 hs_err_pid*
 replay_pid*
 
-# IntelliJ IDEA files
+# IDE specific files
 .idea/
-
-# Maven/Gradle build directories
-/target/
-/build/
-
-# Eclipse files
+.vscode/
 .project
 .classpath
 .settings/
 
-# VS Code files
-.vscode/
+# Maven specific
+.mvn/
+target/
+
+# Gradle specific
+.gradle/
+build/
+*.gradle
+
+# NetBeans specific
+nbproject/private/
+build/
+dist/
 
 # Distribution directories
 /out/
 /dist/
 
-# Maven specific
-.mvn/
-*.mvn/
-
-# Gradle specific
-.gradle/
-*.gradle
+# OS-specific files
+Thumbs.db
+.DS_Store
